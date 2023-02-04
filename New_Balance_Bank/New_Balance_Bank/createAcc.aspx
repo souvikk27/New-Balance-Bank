@@ -186,10 +186,10 @@
                         <td class="auto-style4">Profile Picture :</td>
                         <td class="auto-style3">
                             <div id="display_img">
-                                <img src="#" id="blah" alt="your image" width="100" height="100" />
+                                <img src="/Shared/img/blankprofile.png" id="prof" alt="your image" width="100" height="100" />
                             </div>
                             
-                            <asp:FileUpload ID="imgPrev" runat="server" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])"/>
+                            <asp:FileUpload ID="imgPrev" runat="server" onchange="document.getElementById('prof').src = window.URL.createObjectURL(this.files[0])"/>
                         </td>
                         <td>
                             <asp:Label ID="Label13" runat="server" Text="Label" Visible="False"></asp:Label>
@@ -199,7 +199,7 @@
                         <td class="auto-style4">Signature :</td>
                         <td class="auto-style3">
                             <div id="display_img_sign">
-                                <img src="#" id="sign" alt="your image" width="200" height="50" />
+                                <img src="/Shared/img/imageplaceholder.png" id="sign" alt="your signature" width="200" height="50" />
                             </div>
                             <asp:FileUpload ID="imgSign" runat="server" onchange="document.getElementById('sign').src = window.URL.createObjectURL(this.files[0])"/>
                         </td>
