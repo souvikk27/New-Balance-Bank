@@ -1,6 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="createAcc.aspx.cs" Inherits="New_Balance_Bank.createAcc" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="updateAcc.aspx.cs" Inherits="New_Balance_Bank.updateAcc" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
+     <style type="text/css">
         textarea
        {
            resize: none;
@@ -36,12 +36,11 @@
        }
       
    </script>
-    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-    <div id="content">
+     <div id="content">
         <div class="textCol spread">
-            <h1>Create New Account:</h1>
+            <h1>Update Account Details:</h1>
             <p></p>
             
             <form id="frm" runat="server">
@@ -205,7 +204,7 @@
                 </table>
                 <p></p>
                 
-                <asp:Button ID="btnSave" runat="server" Text="Save" Width="99px" />
+                <asp:Button ID="btnSave" runat="server" Text="Update" Width="99px" />
 &nbsp;<asp:Label ID="Label15" runat="server" Text="Label" Visible="False"></asp:Label>
                 
             
