@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="New_Balance_Bank.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>New Balance Bank</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="Shared/css/Style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Graham Yeadon">
+  <meta name="robots" content="all">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="Shared\css\style.css" type="text/css">
+  <link rel="shortcut icon" href="/favicon.png">
+    <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script defer type="text/javascript" src="/Content/Script/gvst.js?md=202008302135"></script>
+  <title>New Balance Bank</title>
+
+    <meta name="description" content="Free VST effect and instrument plug-ins for Windows">
+    <meta name="keywords" content="gvst, free, vst, vsti, effect, instrument, plug-in, plugin, windows">
+</head>
+<body>
+  <div id="document">
+    <div id="cookieBar" class="hide">
+      <div class="text">By using this site you agree to its use of cookies.</div><div class="buttons"><a href="/basics.htm#cookies">Learn more</a><a id="cookieDismiss" href="#">Close</a></div>
+    </div>
+    <div id="header">
+      <div id="headlogo"><a href="/"><img class="fill" src="/Shared/img/head logo.png" alt="GVST logo" title=""></a></div>
+      
+    </div>
+      <div id="menuBar">
+        <a href="/" class="sel">Home</a>
+        <a href="/basics.htm" class="nosel">Basics</a>
+        <a href="/downloads.htm" class="nosel">Downloads</a>
+        <a href="/support.htm" class="nosel">Support</a>
+      </div>
+    
+
+      <div id="con">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    <div id="contactBar">
+      <a href="&#109;&#97;&#105;&#108;&#116;o&#58;&#103;&#114;&#097;&#104;&#097;&#109;&#064;&#103;&#118;&#115;&#116;&#046;&#099;&#111;&#046;&#117;&#107;">E-mail&nbsp;GVST</a>
+      <a href="/support.htm">Make&nbsp;a&nbsp;Donation</a>
+    </div>
+    <div id="footer">
+      <div class="footCol">
+        <p>Copyright <a href="https://www.kvraudio.com/forum/viewtopic.php?t=123038" class="nohighlight vanitylink" target="_blank">Graham Yeadon</a>. E-mail me at <a href="&#109;&#97;&#105;&#108;&#116;o&#58;&#103;&#114;&#097;&#104;&#097;&#109;&#064;&#103;&#118;&#115;&#116;&#046;&#099;&#111;&#046;&#117;&#107;">&#103;&#114;&#097;&#104;&#097;&#109;&#064;&#103;&#118;&#115;&#116;&#046;&#099;&#111;&#046;&#117;&#107;</a>.</p>
+        <p>
+          I would not make software available that I did not feel was safe and stable.
+          However, I cannot take responsibility for any damage, difficulty, or stress caused by use of my software.
+          Please do not download any software unless you agree with the <a href="/basics.htm#license">license conditions</a>.
+        </p>
+        <p>
+          VST and Windows are trademarks of <a href="http://www.steinberg.de" target="_blank">Steinberg</a> and <a href="http://www.microsoft.com" target="_blank">Microsoft</a> respectively.
+        </p>
+        <p>
+          This site uses cookies - for more details see the <a href="/basics.htm#cookies">cookie information</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+    
+   
+</body>
+</html>
