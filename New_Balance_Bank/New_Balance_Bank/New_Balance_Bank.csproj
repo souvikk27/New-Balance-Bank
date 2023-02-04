@@ -67,23 +67,49 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="allAcc.aspx" />
     <Content Include="createAcc.aspx" />
+    <Content Include="customer_acc_summary.aspx" />
+    <Content Include="deposit.aspx" />
     <Content Include="home.aspx" />
     <Content Include="Shared\css\style.css" />
     <Content Include="Shared\img\blankprofile.png" />
     <Content Include="Shared\img\head logo.png" />
     <Content Include="Shared\img\imageplaceholder.png" />
     <Content Include="Shared\img\New Balance Bank-logos_white.png" />
+    <Content Include="transfer.aspx" />
     <Content Include="updateAcc.aspx" />
     <Content Include="Web.config" />
+    <Content Include="withdraw.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="allAcc.aspx.cs">
+      <DependentUpon>allAcc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="allAcc.aspx.designer.cs">
+      <DependentUpon>allAcc.aspx</DependentUpon>
+    </Compile>
     <Compile Include="createAcc.aspx.cs">
       <DependentUpon>createAcc.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="createAcc.aspx.designer.cs">
       <DependentUpon>createAcc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer_acc_summary.aspx.cs">
+      <DependentUpon>customer_acc_summary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer_acc_summary.aspx.designer.cs">
+      <DependentUpon>customer_acc_summary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="deposit.aspx.cs">
+      <DependentUpon>deposit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deposit.aspx.designer.cs">
+      <DependentUpon>deposit.aspx</DependentUpon>
     </Compile>
     <Compile Include="home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
@@ -100,12 +126,26 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
+    <Compile Include="transfer.aspx.cs">
+      <DependentUpon>transfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="transfer.aspx.designer.cs">
+      <DependentUpon>transfer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="updateAcc.aspx.cs">
       <DependentUpon>updateAcc.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="updateAcc.aspx.designer.cs">
       <DependentUpon>updateAcc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="withdraw.aspx.cs">
+      <DependentUpon>withdraw.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="withdraw.aspx.designer.cs">
+      <DependentUpon>withdraw.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
