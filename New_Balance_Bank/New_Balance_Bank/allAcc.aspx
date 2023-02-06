@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="allAcc.aspx.cs" Inherits="New_Balance_Bank.allAcc" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <form id="form1" runat="server">
@@ -7,9 +8,9 @@
         <div class="textCol spread">
             <h1>Account Records :</h1>
             <p></p>
-            <center>
 
-                <asp:GridView ID="GridView1" runat="server" Height="295px" Width="1644px">
+                
+                     <asp:GridView ID="GridView1" class="table table-bordered table-condensed table-responsive table-hover " runat="server" Height="295px" Width="1644px" AutoGenerateColumns="False">
                     <Columns>
                         <asp:TemplateField HeaderText="Account Number">
                             <ItemTemplate>
@@ -89,9 +90,11 @@
                         <asp:CommandField ShowCancelButton="False" ShowDeleteButton="True" ShowEditButton="True" />
                     </Columns>
                 </asp:GridView>
+                </div>
 
-            </center>
-            </div>
+
+               
+
         </div>
     </form>
 </asp:Content>
