@@ -206,8 +206,8 @@
                 </table>
                 <p></p>
                 
-                <asp:Button ID="btnSave" runat="server" Text="Save" Width="99px" />
-&nbsp;<asp:Label ID="Label15" runat="server" Text="Label" Visible="False"></asp:Label>
+                <asp:Button ID="btnSave" runat="server" Text="Save" Width="99px" OnClick="btnSave_Click" />
+&nbsp;<asp:Label ID="lblBtnUpdate" runat="server" Text="Label" Visible="False" ForeColor="#CC3300"></asp:Label>
                 
             
             </form>

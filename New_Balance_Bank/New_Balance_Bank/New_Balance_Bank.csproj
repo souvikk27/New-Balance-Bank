@@ -183,7 +183,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Shared\images\" />
+    <Folder Include="Images\" />
     <Folder Include="Shared\js\" />
   </ItemGroup>
   <PropertyGroup>
