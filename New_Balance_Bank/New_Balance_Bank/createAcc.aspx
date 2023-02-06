@@ -47,15 +47,7 @@
             <form id="frm" runat="server">
 
                 <table class="auto-style1">
-                    <tr>
-                        <td class="auto-style4">Customer&nbsp; Name :</td>
-                        <td class="auto-style3">
-                            <asp:TextBox ID="TextBox1" runat="server" Style="width: 200px"></asp:TextBox>
-                        </td>
-                        <td>
-                            <asp:Label ID="Label1" runat="server" Text="Label" Visible="False"></asp:Label>
-                        </td>
-                    </tr>
+                   
                     <tr>
                         <td class="auto-style4">Account Number :</td>
                         <td class="auto-style3">
@@ -63,6 +55,15 @@
                         </td>
                         <td>
                             <asp:Label ID="Label2" runat="server" Text="Label" Visible="False"></asp:Label>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="auto-style4">Customer&nbsp; Name :</td>
+                        <td class="auto-style3">
+                            <asp:TextBox ID="TextBox1" runat="server" Style="width: 200px"></asp:TextBox>
+                        </td>
+                        <td>
+                            <asp:Label ID="Label1" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
