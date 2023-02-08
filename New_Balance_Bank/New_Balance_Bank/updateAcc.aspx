@@ -50,34 +50,36 @@
                     <tr>
                         <td class="auto-style4">Account Number :</td>
                         <td class="auto-style3">
-                            <asp:TextBox ID="TextBox2" runat="server" Style="width: 200px"></asp:TextBox>
+                            <asp:TextBox ID="txtAcc" runat="server" Style="width: 200px"></asp:TextBox>
+                            <br />
+                            <asp:Button ID="btnSearch" runat="server" Height="19px" Text="Search" OnClick="btnSearch_Click" />
                         </td>
                         <td>
-                            <asp:Label ID="Label2" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblAcc" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                      <tr>
                         <td class="auto-style4">Customer&nbsp; Name :</td>
                         <td class="auto-style3">
-                            <asp:TextBox ID="TextBox1" runat="server" Style="width: 200px"></asp:TextBox>
+                            <asp:TextBox ID="txtName" runat="server" Style="width: 200px"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="Label1" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblName" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style4">Account Title :</td>
                         <td class="auto-style3">
-                            <asp:TextBox ID="TextBox3" runat="server" Style="width: 200px"></asp:TextBox>
+                            <asp:TextBox ID="txtTitle" runat="server" Style="width: 200px"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="Label3" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblTitle" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style4">Account Type :</td>
                         <td class="auto-style3">
-                            <asp:DropDownList ID="DropDownList1" runat="server" Width="207px">
+                            <asp:DropDownList ID="ddlType" runat="server" Width="207px">
                                 <asp:ListItem Value="">Please Select</asp:ListItem>
                                 <asp:ListItem>Standard Account </asp:ListItem>
                                 <asp:ListItem>Savings Account</asp:ListItem>
@@ -87,92 +89,92 @@
                             </asp:DropDownList>
                         </td>
                         <td>
-                            <asp:Label ID="Label4" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblAtype" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style4">Gender : </td>
                         <td class="auto-style3">
-                            <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal" CssClass="FormatRadioButtonList">
+                            <asp:RadioButtonList ID="radioGen" runat="server" RepeatDirection="Horizontal" CssClass="FormatRadioButtonList">
                                 <asp:ListItem>Male</asp:ListItem>
                                 <asp:ListItem>Female</asp:ListItem>
                                 <asp:ListItem>Other</asp:ListItem>
                             </asp:RadioButtonList>
                         </td>
                         <td>
-                            <asp:Label ID="Label5" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblGen" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style4">Date of Birth :</td>
                         <td class="auto-style3">
-                            <asp:TextBox ID="date" runat="server" placeholder="mm/dd/yyyy" TextMode="Date" ReadOnly="false" Width="200px"></asp:TextBox>
+                            <asp:TextBox ID="Dob" runat="server" placeholder="mm/dd/yyyy" TextMode="Date" ReadOnly="false" Width="200px"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="Label16" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblDob" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style4">Nationality :</td>
                         <td class="auto-style3">
-                            <asp:TextBox ID="TextBox4" runat="server" Style="width: 200px"></asp:TextBox>
+                            <asp:TextBox ID="Nation" runat="server" Style="width: 200px"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="Label6" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblNation" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style4">Postal Address :</td>
                         <td class="auto-style3">
-                            <asp:TextBox ID="txtDesc" runat="server" onkeyup="resizemultilineTextBox(this)" TextMode="MultiLine" CssClass="animated" Width="200px"></asp:TextBox>
+                            <asp:TextBox ID="Padd" runat="server" onkeyup="resizemultilineTextBox(this)" TextMode="MultiLine" CssClass="animated" Width="200px"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="Label7" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblPadd" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style4">Phone Number :</td>
                         <td class="auto-style3">
-                            <asp:TextBox ID="TextBox6" runat="server" Style="width: 200px"></asp:TextBox>
+                            <asp:TextBox ID="Phno" runat="server" Style="width: 200px"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="Label8" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblPhno" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style4">NIC Number :</td>
                         <td class="auto-style3">
-                            <asp:TextBox ID="TextBox7" runat="server" Style="width: 200px"></asp:TextBox>
+                            <asp:TextBox ID="Nic" runat="server" Style="width: 200px"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="Label9" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblNic" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style4">Email Address :</td>
                         <td class="auto-style3">
-                            <asp:TextBox ID="TextBox8" runat="server" Style="width: 200px"></asp:TextBox>
+                            <asp:TextBox ID="Eadd" runat="server" Style="width: 200px"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="Label10" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblEadd" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style4">Occupation :</td>
                         <td class="auto-style3">
-                            <asp:TextBox ID="TextBox9" runat="server" Style="width: 200px"></asp:TextBox>
+                            <asp:TextBox ID="Occup" runat="server" Style="width: 200px"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="Label11" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblOccup" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style4">Initial Deposit :</td>
                         <td class="auto-style3">
-                            <asp:TextBox ID="TextBox10" runat="server" Style="width: 200px"></asp:TextBox>
+                            <asp:TextBox ID="Initdep" runat="server" Style="width: 200px"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="Label12" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblInitdep" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
@@ -185,7 +187,7 @@
                             <asp:FileUpload ID="imgPrev" runat="server" onchange="document.getElementById('prof').src = window.URL.createObjectURL(this.files[0])"/>
                         </td>
                         <td>
-                            <asp:Label ID="Label13" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="ibiImprev" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                     <tr>
@@ -197,7 +199,7 @@
                             <asp:FileUpload ID="imgSign" runat="server" onchange="document.getElementById('sign').src = window.URL.createObjectURL(this.files[0])"/>
                         </td>
                         <td>
-                            <asp:Label ID="Label14" runat="server" Text="Label" Visible="False"></asp:Label>
+                            <asp:Label ID="lblimgSign" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
                     </tr>
                    
@@ -205,8 +207,8 @@
                 </table>
                 <p></p>
                 
-                <asp:Button ID="btnSave" runat="server" Text="Update" Width="99px" />
-&nbsp;<asp:Label ID="Label15" runat="server" Text="Label" Visible="False"></asp:Label>
+                <asp:Button ID="btnSave" runat="server" Text="Save" Width="99px" />
+&nbsp;<asp:Label ID="lblBtnUpdate" runat="server" Text="Label" Visible="False" ForeColor="#CC3300"></asp:Label>
                 
             
             </form>
