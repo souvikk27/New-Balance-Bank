@@ -17,7 +17,7 @@
         .FormatRadioButtonList label {
             margin-right: 15px;
         }
-        #display_img{
+       /* #display_img{
             width: 100px;
             height: 100px;
             border: 1px solid black;
@@ -26,7 +26,7 @@
             width: 200px;
             height: 50px;
             border: 1px solid black;
-        }
+        }*/
        
     </style>
    <script>
@@ -175,33 +175,7 @@
                         <td>
                             <asp:Label ID="lblInitdep" runat="server" Text="Label" Visible="False"></asp:Label>
                         </td>
-                    </tr>
-                    <tr>
-                        <td class="auto-style4">Profile Picture :</td>
-                        <td class="auto-style3">
-                            <div id="display_img">
-                                <img src="/Shared/img/blankprofile.png" id="prof" alt="your image" width="100" height="100" />
-                            </div>
-                            
-                            <asp:FileUpload ID="imgPrev" runat="server" onchange="document.getElementById('prof').src = window.URL.createObjectURL(this.files[0])"/>
-                        </td>
-                        <td>
-                            <asp:Label ID="ibiImprev" runat="server" Text="Label" Visible="False"></asp:Label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="auto-style4">Signature :</td>
-                        <td class="auto-style3">
-                            <div id="display_img_sign">
-                                <img src="/Shared/img/imageplaceholder.png" id="sign" alt="your signature" width="200" height="50" />
-                            </div>
-                            <asp:FileUpload ID="imgSign" runat="server" onchange="document.getElementById('sign').src = window.URL.createObjectURL(this.files[0])"/>
-                        </td>
-                        <td>
-                            <asp:Label ID="lblimgSign" runat="server" Text="Label" Visible="False"></asp:Label>
-                        </td>
-                    </tr>
-                   
+                    </tr>                     
                     
                 </table>
                 <p></p>

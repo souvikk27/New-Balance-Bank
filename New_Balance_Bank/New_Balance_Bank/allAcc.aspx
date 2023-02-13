@@ -77,16 +77,7 @@
                                 <asp:Label ID="Label13" runat="server" Text='<%# Eval("Init_dep") %>'></asp:Label>
                             </ItemTemplate>
                         </asp:TemplateField>
-                        <asp:TemplateField HeaderText="Profile Picture">
-                            <ItemTemplate>
-                                <asp:Image ID="Image1" runat="server" ImageUrl='<%# Eval("P_pic") %>' Height="100" Width="100"/>
-                            </ItemTemplate>
-                        </asp:TemplateField>
-                        <asp:TemplateField HeaderText="Signature">
-                            <ItemTemplate>
-                                <asp:Image ID="Image2" runat="server" ImageUrl='<%# Eval("Sig") %>' Height="50" Width="200"/>
-                            </ItemTemplate>
-                        </asp:TemplateField>
+                       
                         <asp:CommandField ShowCancelButton="False" ShowDeleteButton="True" ShowEditButton="True" />
                     </Columns>
                 </asp:GridView>

@@ -267,42 +267,6 @@ namespace New_Balance_Bank
         protected global::System.Web.UI.WebControls.Label lblInitdep;
 
         /// <summary>
-        /// imgPrev control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload imgPrev;
-
-        /// <summary>
-        /// ibiImprev control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ibiImprev;
-
-        /// <summary>
-        /// imgSign control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload imgSign;
-
-        /// <summary>
-        /// lblimgSign control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblimgSign;
-
-        /// <summary>
         /// btnSave control.
         /// </summary>
         /// <remarks>
