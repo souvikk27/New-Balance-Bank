@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="updateAcc.aspx.cs" Inherits="New_Balance_Bank.updateAcc" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layout1.Master" AutoEventWireup="true" CodeBehind="updateAcc.aspx.cs" Inherits="New_Balance_Bank.updateAcc" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
      <style type="text/css">
         textarea

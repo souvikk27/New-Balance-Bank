@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="withdraw.aspx.cs" Inherits="New_Balance_Bank.withdraw" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layout1.Master" AutoEventWireup="true" CodeBehind="withdraw.aspx.cs" Inherits="New_Balance_Bank.withdraw" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
      <style type="text/css">
         .auto-style1 {

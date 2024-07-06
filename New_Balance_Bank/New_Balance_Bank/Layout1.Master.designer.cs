@@ -11,7 +11,7 @@ namespace New_Balance_Bank
 {
 
 
-    public partial class Site1
+    public partial class Layout1
     {
 
         /// <summary>

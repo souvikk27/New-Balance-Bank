@@ -136,12 +136,12 @@
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Site1.Master.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
+    <Compile Include="Layout1.Master.cs">
+      <DependentUpon>Layout1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Site1.Master.designer.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
+    <Compile Include="Layout1.Master.designer.cs">
+      <DependentUpon>Layout1.Master</DependentUpon>
     </Compile>
     <Compile Include="toptentransac.aspx.cs">
       <DependentUpon>toptentransac.aspx</DependentUpon>
@@ -174,7 +174,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Site1.Master" />
+    <Content Include="Layout1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -183,6 +183,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Data\" />
     <Folder Include="Images\" />
     <Folder Include="Shared\js\" />
   </ItemGroup>
