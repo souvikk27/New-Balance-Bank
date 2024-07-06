@@ -292,3 +292,8 @@ __pycache__/
 # tools/
 
 
+/New_Balance_Bank/.vs/
+/New_Balance_Bank/obj/Debug/
+/New_Balance_Bank/.bin/
+/New_Balance_Bank/New_Balance_Bank/obj/Debug/New_Balance_Bank.csproj.AssemblyReference.cache
+/New_Balance_Bank/New_Balance_Bank/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
